@@ -3,10 +3,10 @@ Clinical Trials Patient Dropout Risk Score Modeling
 This repository contains the code and workflow for modeling patient dropout risk in clinical trials. The project involves defining variables of interest, collecting and cleaning data, generating synthetic data, preprocessing, training machine learning models, evaluating their performance, and deploying the best model for risk score generation.
 
 **Project Overview**
-Objective
+**Objective**
 To predict the risk of patient dropout in clinical trials using machine learning models. The risk score is generated based on patient-related, site-related, and sponsor/protocol-related factors.
 
-Key Steps
+**Key Steps**
 Defined Variables of Interest:
 
 Patient-related: Age, gender, education level, adverse events, etc.
@@ -15,33 +15,33 @@ Site-related: Distance to site, parking availability, study burden, time spent a
 
 Sponsor/Protocol-related: Therapeutic area, trial duration, treatment duration, etc.
 
-Data Collection:
+**Data Collection:**
 
 Data was sourced from the AACT database.
 
 Additional sample data was generated using random and stratified sampling to supplement the dataset.
 
-Data Cleaning:
+**Data Cleaning:**
 
 Missing data and outliers were removed.
 
 Only sponsored studies with at least a 10% dropout rate were included.
 
-Data Generation:
+**Data Generation:**
 
 The final dataset was created by combining modified AACT data and synthetic sample data.
 
-Data Split:
+**Data Split:**
 
 The dataset was split into training (75%) and testing (25%) sets.
 
-Data Preprocessing:
+**Data Preprocessing:**
 
 Variables like Patient ID, Visit Number, Visit Completion Flag, and Cumulative Visit Completion were removed.
 
 Categorical variables (e.g., gender, education level, parking availability, study burden) were encoded using one-hot encoding.
 
-Model Generation:
+**Model Generation:**
 
 Multiple machine learning algorithms were compared:
 
