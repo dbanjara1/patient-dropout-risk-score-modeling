@@ -5,9 +5,11 @@ This repository contains the code and workflow for modeling patient dropout risk
 **Project Overview**
 
 **Objective**
+
 To predict the risk of patient dropout in clinical trials using machine learning models. The risk score is generated based on patient-related, site-related, and sponsor/protocol-related factors.
 
 **Key Steps**
+
 Defined Variables of Interest:
 
 Patient-related: Age, gender, education level, adverse events, etc.
