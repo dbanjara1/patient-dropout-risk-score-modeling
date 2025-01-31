@@ -1,8 +1,10 @@
 # Patient-dropout-risk-score-modeling
+
+**Project Overview**
+
 Clinical Trials Patient Dropout Risk Score Modeling
 This repository contains the code and workflow for modeling patient dropout risk in clinical trials. The project involves defining variables of interest, collecting and cleaning data, generating synthetic data, preprocessing, training machine learning models, evaluating their performance, and deploying the best model for risk score generation.
 
-**Project Overview**
 
 **Objective**
 
