@@ -74,15 +74,7 @@ The trained model is deployed in R to generate risk scores for study patient dat
 
 Risk scores are stored in a MySQL database for each patient visit.
 
-**Repository Structure**
-
-clinical-trials-dropout-risk/
-├── data_preprocessing.R          # Script for data cleaning and preprocessing
-├── model_training.R              # Script for training ML models
-├── model_evaluation.R            # Script for evaluating model performance
-├── preprocessed_data.csv         # Preprocessed dataset
-├── best_model.rds                # Serialized best model (XGBoost)
-├── README.md                     # Project documentation
+# Project documentation
 
 **Dependencies**
 R (>= 4.0.0)
