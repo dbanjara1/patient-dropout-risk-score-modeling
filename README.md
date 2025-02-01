@@ -74,7 +74,7 @@ The trained model is deployed in R to generate risk scores for study patient dat
 
 Risk scores are stored in a MySQL database for each patient visit.
 
-# Project documentation
+       # Project documentation
 
 **Dependencies**
 R (>= 4.0.0)
